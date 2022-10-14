@@ -1,0 +1,142 @@
+
+/* main card body */
+
+.App {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right:30%;
+  background-color: #023047;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #011d2bb8;
+}
+
+/* profile image */
+
+.profile-image-container {
+
+  background-color: #ffe4a0;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+
+}
+
+.profile-image {
+  width:350px;
+  display: flex;
+  overflow: hidden;
+}
+
+/* name and tagline */
+
+.tagline-container {
+  color:white;
+  text-align: center;
+}
+
+.tagline-container > h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 21pt;
+  letter-spacing: 3px;
+  color: #ffb703;
+  margin-bottom: 0%;
+}
+
+.tagline-container > p{
+  font-weight: normal;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 3px;
+  margin-top: 0%;
+}
+
+/* resume download button */
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+/* about me */
+
+.aboutme-container {
+  background-color: #0b4765;
+  color: white;
+}
+
+.aboutme-container > .aboutme-text-container > p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 10pt;
+}
+
+.aboutme-text-container {
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+}
+
+.hi-text {
+  color: #ffb703;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+/* services i provide */
+
+.services-container{
+  color: white;
+  width: 65%;
+}
+
+.services-container > h3 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #ffb703;
+  padding-left: 12%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.services-list > li {
+  list-style-type: '👉';
+  padding-top: 0%;
+  padding-left:10px;
+  font-size: 10pt;
+}
+
+.services-container > ul {
+  margin-top: 1%;
+  padding-top: 0%;
+  padding-left: 23%;
+}
+
+/* Social media icons */
+
+.ss-icon {
+  width: 35px;
+  fill: rgb(140, 211, 246);
+  transition: 0.5s;
+  text-shadow: #a7d6ee;
+  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.815))
+}
+
+.ss-icon:hover {
+  fill: #ffb703;
+  rotate: 360deg;
+  transition: 0.8s;
+  filter: none;
+}
+
+.sociallinks-container > ul  {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sociallinks-container > ul > li {
+  margin: 0%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+}
