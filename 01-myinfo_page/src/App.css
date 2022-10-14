@@ -1,0 +1,71 @@
+
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  margin-right: 1%;
+}
+
+.navbar > p {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navbar > .nav-title > img {
+  width: 40px;
+}
+
+.navbar > .nav-title > h2 {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.nav-title {
+  margin-left: 1%;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(57, 57, 57);
+  box-shadow: 0px 2px 15px 1px rgb(0, 0, 0) ;
+}
+
+.body > h1 {
+  color:rgba(100, 225, 225, 0.959);
+}
+
+.body > ul > li::marker {
+  font-size: 1.7rem;
+  color: rgba(100, 225, 225, 0.959);
+} 
+
+.body > ul > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.body {
+  background-image: url(./assets/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.footer > small > a {
+  color: rgba(100, 225, 225, 0.959);
+}
+
+.footer > small > a:hover {
+  color: rgba(255, 255, 255, 0.959);
+}
+
+.footer > small > a:visited {
+  color: rgba(100, 225, 225, 0.959);
+}
+
+.footer {
+  background-color: rgb(57, 57, 57);
+  color: white;
+  padding: 10px;
+  align-self: bottom;
+}
