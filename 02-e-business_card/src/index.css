@@ -1,0 +1,9 @@
+body {
+  background-color: #202020;
+  display: flex;
+}
+
+#root {
+  /* display: flex; */
+  justify-content: center;
+}
