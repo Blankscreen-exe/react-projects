@@ -1,0 +1,62 @@
+[
+    {
+        "_id":"00",
+        "name":"scrimba source",
+        "profile_url":"/item-00.png",
+        "title":"Life lessons with Katie Zaferes",
+        "price":136,
+        "rating":5.0,
+        "reviewCount":6,
+        "location":"USA"
+    },
+    {
+        "_id":"01",
+        "name":"scrimba source",
+        "profile_url":"/item-01.png",
+        "title":"Group mountain biking",
+        "price":350,
+        "rating":4.2,
+        "reviewCount":12,
+        "location":"SGP"
+    },
+    {
+        "_id":"02",
+        "name":"scrimba source",
+        "profile_url":"/item-02.png",
+        "title":"Learn wedding photography",
+        "price":270,
+        "rating":3.1,
+        "reviewCount":8,
+        "location":"AUS"
+    },
+    {
+        "_id":"03",
+        "name":"dominica roseclay",
+        "profile_url":"/item-03.png",
+        "title":"Bringing positivity through mindfulness by Dominica Roseclay",
+        "price":50,
+        "rating":4.6,
+        "reviewCount":14,
+        "location":"ITA"
+    },
+    {
+        "_id":"04",
+        "name":"emmy-e",
+        "profile_url":"/item-04.png",
+        "title":"Mastering corporate communication with Emmy E.",
+        "price":210,
+        "rating":4.6,
+        "reviewCount":17,
+        "location":"EGY"
+    },
+    {
+        "_id":"05",
+        "name":"cliff booth",
+        "profile_url":"/item-05.png",
+        "title":"Project Management Walkthrough",
+        "price":240,
+        "rating":3.1,
+        "reviewCount":8,
+        "location":"AUS"
+    }
+]
