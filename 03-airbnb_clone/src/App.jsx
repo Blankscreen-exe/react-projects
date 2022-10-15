@@ -30,6 +30,7 @@ function App() {
           location={item.location}
           />)}
         </section>
+        <section className='extraspace'></section>
     </div>
   )
 }
