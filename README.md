@@ -9,7 +9,7 @@ This repo consists of my React.js based projects by following a course on [freec
 ## Projects I made in this repo:
 1. - [x] [Info Single Page App](https://precious-moonbeam-d165b1.netlify.app/)
 2. - [x] [E-Biz Card](https://brilliant-cocada-6cfb72.netlify.app/)
-3. - [ ] .
+3. - [x] [Airbnb Clone](https://beamish-starburst-a5841c.netlify.app/)
 4. - [ ] .
 5. - [ ] .
 6. - [ ] .
