@@ -88,6 +88,7 @@ section {
   min-width: 200px;
   /* background-color: rgb(239, 239, 239);  */ /* for aesthetics */
   border-radius: 9px;
+  position: relative;
 }
 
 .card--image {
@@ -125,6 +126,17 @@ section {
 
 .card--details {
   font-size: 10pt;
+}
+
+/* card badge */
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 /* extra space div */
