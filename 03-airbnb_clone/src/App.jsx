@@ -21,13 +21,15 @@ function App() {
         {cardList.map((item) => 
         <Card
           key={item._id}
-          name={item.name} 
-          profile_url={item.profile_url}
-          title={item.title}
-          price={item.price}
-          rating={item.rating}
-          reviewCount={item.reviewCount}
-          location={item.location}
+          {...item} // just a preference
+          // name={item.name} 
+          // profile_url={item.profile_url}
+          // title={item.title}
+          // price={item.price}
+          // rating={item.rating}
+          // reviewCount={item.reviewCount}
+          // location={item.location}
+          // openSpots={item.openSpots}
           />)}
         </section>
         <section className='extraspace'></section>
