@@ -1,0 +1,119 @@
+/* navbar */
+
+.navbar {
+  background-color: rgb(218, 255, 231);
+  box-shadow: 0px 1px 5px #1f540f6e;
+  color: rgb(7, 95, 66);
+
+  display: flex;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.navbar > div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar > div > img {
+  width: 70px;
+  max-height: 70px;
+}
+
+.navbar > div > h1 {
+  font-size: 19pt;
+}
+
+/* card section */
+
+.card-section-container {
+  padding: 5px 10px;
+  max-width: 1200px;
+}
+
+.card-section-container > hr {
+  border-top: 1px solid rgb(201, 201, 201);
+  width: 90%;
+  max-width: 1217px;
+}
+
+.card-section {
+  padding: 5px 5px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+/* image container */
+
+.image-container {
+  width: 250px;
+}
+
+.image-container > img {
+  width: 250px;
+  min-width: 232;
+  border-radius: 9px;
+}
+
+/* text container */
+
+.text-location > svg{
+  color: red;
+  width: 12px;
+  margin: 0px;
+}
+
+.text-location > a{
+  color: rgb(158, 158, 158);
+}
+
+.text-location > a:visited{
+  color: rgb(158, 158, 158);
+}
+
+.text-location > a:hover{
+  color: rgb(22, 202, 82);
+}
+
+.text-section > h1 {
+  margin: 0px;
+  padding: 5px 0px 10px 0px;
+  color: rgb(81, 81, 81);
+}
+
+.text-section > h4 {
+  margin: 0px;
+}
+
+.text-section > p {
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.text-section {
+  max-width: 628px;
+  padding: 0px 10px 0px 10px;
+}
+
+
+/* for small devices */
+@media only screen and (max-device-width: 480px) {
+  .card-section {
+    flex-wrap: wrap;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container > img {
+    width: 100%;
+  }
+}
+
+/* setting card to center when resolution is hit */
+@media only screen and (max-device-width: 1024px) {
+  .card-section {
+    justify-content:center;
+  }
+}
