@@ -1,0 +1,161 @@
+/* header Navbar whater you want to call it */
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #03288c 1.18%, #7698f5 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+/* Form */
+.meme-gen-container {
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  padding: 10px 2%;
+  max-width: 700px;
+  min-width: 500px;
+
+  background-color: rgb(60, 164, 255);
+  
+}
+
+.input-text {
+  /* border-radius: 5px; */
+  border: 2px solid #0f4dd2;
+  box-shadow: 4px 4px 0px blue;
+  font-size: 12pt;
+  text-indent: 5px;
+  outline: none;
+}
+
+.gen-button {
+  grid-column: 1 / -1;
+
+  padding: 5px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: yellow;
+  border: 3px solid blue;
+  box-shadow: 3px 3px blue;
+}
+
+.gen-button:hover {
+  background-color: orange;
+}
+
+.gen-button:active {
+  background-color: orange;
+  box-shadow: 0px 0px blue;
+  transform: translateY(4px), translateX(4px);
+}
+
+/* image */
+.meme-image-container {
+  grid-column: 1 / -1;
+
+  display: flex;
+  justify-content: center;
+}
+
+.meme-image {
+
+  max-width: 500px;
+  border: 3px solid blue;
+}
+
+/* hint text */
+.hint-text {
+  grid-column: 1 / -1;
+  text-align: center;
+
+  color: rgb(218, 224, 254);
+  font-size: 10pt;
+}
+
+/* meme text */
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.meme {
+  position: relative;
+}
+
+/* for small devices */
+@media only screen and (max-device-width: 400px) {
+  .form {
+    /* grid-template: 40px 40px / 1fr 1fr; */
+    gap: 10px;
+    padding: 10px 2%;
+    max-width: 370px;
+    min-width: 30px;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  .meme-image {
+
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+}
