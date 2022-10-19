@@ -1,0 +1,40 @@
+body {
+	font-family: "Karla", sans-serif;
+  	margin: 0;
+	/* background-image: url('../public/doge-bg.jpg'); */
+}
+
+body::after {
+	content: "";
+	background: url('/doge-bg.jpg');
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+	overflow: visible;
+  }
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #ffffff;
+}
+::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+	background-color: rgb(216, 216, 216);
+  border: 5px solid #ffffff;
+}
