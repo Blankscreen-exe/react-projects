@@ -1,21 +1,34 @@
-import React, {useState} from "react";
-
-import data from "../../database/data";
-const memesData = data.data.memes
-
-
+import React, {useState, useEffect} from "react";
 
 export default function AppBody () {
     // states for current meme
-    const [meme, setMeme] = React.useState({
+    const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
         randomImage: "/placeholderimage.jpg" 
     })
 
+    const [allMemes, setAllMemes] = useState([])
+
+    useEffect( () => {
+        /* without using async await */
+        // fetch("https://api.imgflip.com/get_memes")
+        //     .then(res => res.json())
+        //     .then(data => setAllMemes(data.data.memes))
+
+        /* using async await */
+        async function getMeme () {
+           const res = await fetch("https://api.imgflip.com/get_memes")
+           const data = await res.json()
+           setAllMemes(data.data.memes)
+        }
+        getMeme()
+        console.log("fetched data sucessfully")
+    }, [])
+
     function randomUrlGenerator() {
         console.log("inside random func" )
-        let memeUrl = memesData[Math.floor(Math.random()*memesData.length)].url;
+        let memeUrl = allMemes[Math.floor(Math.random()*allMemes.length)].url;
         setMeme(prevMeme => ({
             ...prevMeme,
             randomImage: memeUrl
