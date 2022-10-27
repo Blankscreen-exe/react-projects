@@ -12,9 +12,7 @@ This repo consists of my React.js based projects by following a course on [freec
 3. - [x] [Airbnb Clone](https://beamish-starburst-a5841c.netlify.app/)
 4. - [x] [My Travel Journal](https://dynamic-gecko-033d7e.netlify.app/)
 5. - [x] [Doge Meme Generator](https://coruscating-cactus-425e21.netlify.app/)
-6. - [ ] .
-7. - [ ] .
-8. - [ ] . 
+6. - [x] [Tenzies Game](https://superlative-manatee-3968cf.netlify.app/)
 
 ## Installation Instructions
 1. Make sure you have `node.js` and `npm` installed. I made these projects in Oct 2022 so I just used `node==16.17.1` and `npm==8.15.0`
